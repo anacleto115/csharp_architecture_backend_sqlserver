@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\lib_domain_context\lib_domain_context.csproj" />
+    <ProjectReference Include="..\lib_utilities\lib_utilities.csproj" />
+  </ItemGroup>
+
+</Project>
